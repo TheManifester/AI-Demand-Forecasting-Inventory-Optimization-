@@ -6,6 +6,11 @@ The system uses historical sales data to forecast demand and then applies invent
 
 ---
 
+## 🚀 Live Demo
+
+👉 [Open AI Inventory Optimization Dashboard](https://9yu8pbggojgnezdmghd7ma.streamlit.app/)
+
+
 ## 🚀 Project Overview
 
 Inventory management is challenging because businesses need to maintain enough stock to satisfy customer demand without holding excessive inventory.
