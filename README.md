@@ -394,39 +394,36 @@ This improves model transparency and makes the forecasting system easier to inte
 ```text
 AI-Demand-Forecasting-Inventory-Optimization/
 │
-├── data/
-│   ├── raw/
-│   │   ├── train.csv
-│   │   ├── test.csv
-│   │   └── simulation.csv
-│   │
-│   └── processed/
-│
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Feature_Engineering.ipynb
-│   ├── 03_Model_Training.ipynb
-│   ├── 04_Forecasting.ipynb
-│   ├── 05_Inventory_Optimization.ipynb
-│   └── 06_Inventory_Simulation.ipynb
+├── dashboards/
+│   └── data/
+│       ├── processed/
+│       │   ├── inventory_by_store.csv
+│       │   ├── inventory_distribution.csv
+│       │   ├── inventory_simulation.csv
+│       │   ├── inventory_trend.csv
+│       │   ├── kpis.csv
+│       │   ├── orders_by_item.csv
+│       │   ├── orders_by_store.csv
+│       │   ├── recommended_orders.csv
+│       │   └── top_store_item.csv
+│       │
+│       └── raw/
 │
 ├── models/
-│   └── xgboost_model.pkl
+│   └── my_model.pkl
 │
-├── dashboards/
-│   └── app.py
+├── notebooks/
+│   ├── 01_Business_Understanding.ipynb
+│   ├── 02_Model_Training.ipynb
+│   ├── 03_Model_Training...ipynb
+│   └── 04_Inventory_Simulation.ipynb
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── forecasting.py
-│   ├── inventory.py
-│   └── simulation.py
-│
-├── requirements.txt
+├── .gitignore
+├── app.py
 ├── README.md
-└── .gitignore
-```
-
+├── requirements.txt
+│
+└── src/
 ---
 
 # ▶️ How to Run
