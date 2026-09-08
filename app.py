@@ -16,7 +16,7 @@ st.title("📦 AI Demand Forecasting & Inventory Optimization")
 st.markdown("AI-powered demand forecasting and inventory management dashboard")
 st.divider()
 
-DATA_PATH = "../data/processed/"
+DATA_PATH = "data/processed/"
 
 
 # ============================================================
